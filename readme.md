@@ -25,11 +25,12 @@ npm install
 ### 🏁 How To Start
 
 To start the server in development mode, run the following script:
+
 ```bash
 npm run dev
 ```
-Then, open http://localhost:8000 to access the server.
 
+Then, open http://localhost:8000 to access the server.
 
 ### 🚀 Production
 
@@ -49,21 +50,21 @@ npm start
 
 This will start the server and make it available at http://localhost:8000.
 
-
 ### 🏗️ Scripts
+
 This project comes with several predefined scripts in the package.json file:
 
-```test```: Runs tests using Jest.
+`test`: Runs tests using Jest.
 
-```lint```: Runs ESLint to check code quality.
+`lint`: Runs ESLint to check code quality.
 
-```lint:fix```: Runs ESLint to fix code style issues.
+`lint:fix`: Runs ESLint to fix code style issues.
 
-```dev```: Starts the development server with ts-node-dev and allows debugging
+`dev`: Starts the development server with ts-node-dev and allows debugging
 
-```build```: Removes the ./dist folder and compiles the TypeScript code into JavaScript in the ./dist folder.
+`build`: Removes the ./dist folder and compiles the TypeScript code into JavaScript in the ./dist folder.
 
-```start```: Starts the server in production using the compiled files in the dist/ folder.
+`start`: Starts the server in production using the compiled files in the dist/ folder.
 
 ### 📝 Dependencies
 
@@ -107,7 +108,7 @@ This project comes with several predefined scripts in the package.json file:
 
 ### 🗂️ Folder structure
 
-In this folder structure, the code is organized according to the principles of Hexagonal Architecture. 
+In this folder structure, the code is organized according to the principles of Hexagonal Architecture.
 
 ```
 src/
@@ -136,6 +137,3 @@ src/
         ├── services
         └── UserModule.ts
 ```
-
-
-
